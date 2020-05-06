@@ -1,15 +1,15 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import styles from './styles';
 
 export default class Line extends PureComponent {
-  static propTypes = {
-    type: PropTypes.oneOf(['solid', 'dotted', 'dashed', 'none']).isRequired,
-    width: PropTypes.number.isRequired,
-    color: PropTypes.string.isRequired,
-  };
+  // static propTypes = {
+  //   type: PropTypes.oneOf(['solid', 'dotted', 'dashed', 'none']).isRequired,
+  //   width: PropTypes.number.isRequired,
+  //   color: PropTypes.string.isRequired,
+  // };
 
   render() {
     let {

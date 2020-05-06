@@ -1,41 +1,41 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Animated } from 'react-native';
 
 export default class Label extends PureComponent {
-  static defaultProps = {
-    numberOfLines: 1,
+  // static defaultProps = {
+  //   numberOfLines: 1,
 
-    active: false,
-    focused: false,
-    errored: false,
-    restricted: false,
-  };
+  //   active: false,
+  //   focused: false,
+  //   errored: false,
+  //   restricted: false,
+  // };
 
-  static propTypes = {
-    active: PropTypes.bool,
-    focused: PropTypes.bool,
-    errored: PropTypes.bool,
-    restricted: PropTypes.bool,
+  // static propTypes = {
+  //   active: PropTypes.bool,
+  //   focused: PropTypes.bool,
+  //   errored: PropTypes.bool,
+  //   restricted: PropTypes.bool,
 
-    baseSize: PropTypes.number.isRequired,
-    fontSize: PropTypes.number.isRequired,
-    activeFontSize: PropTypes.number.isRequired,
-    basePadding: PropTypes.number.isRequired,
+  //   baseSize: PropTypes.number.isRequired,
+  //   fontSize: PropTypes.number.isRequired,
+  //   activeFontSize: PropTypes.number.isRequired,
+  //   basePadding: PropTypes.number.isRequired,
 
-    tintColor: PropTypes.string.isRequired,
-    baseColor: PropTypes.string.isRequired,
-    errorColor: PropTypes.string.isRequired,
+  //   tintColor: PropTypes.string.isRequired,
+  //   baseColor: PropTypes.string.isRequired,
+  //   errorColor: PropTypes.string.isRequired,
 
-    animationDuration: PropTypes.number.isRequired,
+  //   animationDuration: PropTypes.number.isRequired,
 
-    style: Animated.Text.propTypes.style,
+  //   style: Animated.Text.propTypes.style,
 
-    children: PropTypes.oneOfType([
-      PropTypes.arrayOf(PropTypes.node),
-      PropTypes.node,
-    ]),
-  };
+  //   children: PropTypes.oneOfType([
+  //     PropTypes.arrayOf(PropTypes.node),
+  //     PropTypes.node,
+  //   ]),
+  // };
 
   constructor(props) {
     super(props);

@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import {
   View,
@@ -22,81 +22,81 @@ import Counter from '../counter';
 import styles from './styles.js';
 
 export default class TextField extends PureComponent {
-  static defaultProps = {
-    underlineColorAndroid: 'transparent',
-    disableFullscreenUI: true,
-    autoCapitalize: 'sentences',
-    editable: true,
+  // static defaultProps = {
+  //   underlineColorAndroid: 'transparent',
+  //   disableFullscreenUI: true,
+  //   autoCapitalize: 'sentences',
+  //   editable: true,
 
-    animationDuration: 225,
+  //   animationDuration: 225,
 
-    fontSize: 16,
-    titleFontSize: 12,
-    labelFontSize: 12,
-    labelHeight: 32,
-    labelPadding: 4,
-    inputContainerPadding: 8,
-    helpersNumberOfLines: 1,
+  //   fontSize: 16,
+  //   titleFontSize: 12,
+  //   labelFontSize: 12,
+  //   labelHeight: 32,
+  //   labelPadding: 4,
+  //   inputContainerPadding: 8,
+  //   helpersNumberOfLines: 1,
 
-    tintColor: 'rgb(0, 145, 234)',
-    textColor: 'rgba(0, 0, 0, .87)',
-    baseColor: 'rgba(0, 0, 0, .38)',
+  //   tintColor: 'rgb(0, 145, 234)',
+  //   textColor: 'rgba(0, 0, 0, .87)',
+  //   baseColor: 'rgba(0, 0, 0, .38)',
 
-    errorColor: 'rgb(213, 0, 0)',
+  //   errorColor: 'rgb(213, 0, 0)',
 
-    lineWidth: StyleSheet.hairlineWidth,
-    activeLineWidth: 2,
+  //   lineWidth: StyleSheet.hairlineWidth,
+  //   activeLineWidth: 2,
 
-    disabled: false,
-    disabledLineType: 'dotted',
-    disabledLineWidth: 1,
-  };
+  //   disabled: false,
+  //   disabledLineType: 'dotted',
+  //   disabledLineWidth: 1,
+  // };
 
-  static propTypes = {
-    ...TextInput.propTypes,
+  // static propTypes = {
+  //   ...TextInput.propTypes,
 
-    animationDuration: PropTypes.number,
+  //   animationDuration: PropTypes.number,
 
-    fontSize: PropTypes.number,
-    titleFontSize: PropTypes.number,
-    labelFontSize: PropTypes.number,
-    labelHeight: PropTypes.number,
-    labelPadding: PropTypes.number,
-    inputContainerPadding: PropTypes.number,
+  //   fontSize: PropTypes.number,
+  //   titleFontSize: PropTypes.number,
+  //   labelFontSize: PropTypes.number,
+  //   labelHeight: PropTypes.number,
+  //   labelPadding: PropTypes.number,
+  //   inputContainerPadding: PropTypes.number,
 
-    labelTextStyle: Text.propTypes.style,
-    titleTextStyle: Text.propTypes.style,
-    affixTextStyle: Text.propTypes.style,
+  //   labelTextStyle: Text.propTypes.style,
+  //   titleTextStyle: Text.propTypes.style,
+  //   affixTextStyle: Text.propTypes.style,
 
-    tintColor: PropTypes.string,
-    textColor: PropTypes.string,
-    baseColor: PropTypes.string,
+  //   tintColor: PropTypes.string,
+  //   textColor: PropTypes.string,
+  //   baseColor: PropTypes.string,
 
-    label: PropTypes.string.isRequired,
-    title: PropTypes.string,
+  //   label: PropTypes.string.isRequired,
+  //   title: PropTypes.string,
 
-    characterRestriction: PropTypes.number,
+  //   characterRestriction: PropTypes.number,
 
-    error: PropTypes.string,
-    errorColor: PropTypes.string,
+  //   error: PropTypes.string,
+  //   errorColor: PropTypes.string,
 
-    lineWidth: PropTypes.number,
-    activeLineWidth: PropTypes.number,
+  //   lineWidth: PropTypes.number,
+  //   activeLineWidth: PropTypes.number,
 
-    disabled: PropTypes.bool,
-    disabledLineType: Line.propTypes.type,
-    disabledLineWidth: PropTypes.number,
+  //   disabled: PropTypes.bool,
+  //   disabledLineType: Line.propTypes.type,
+  //   disabledLineWidth: PropTypes.number,
 
-    renderAccessory: PropTypes.func,
+  //   renderAccessory: PropTypes.func,
 
-    prefix: PropTypes.string,
-    suffix: PropTypes.string,
+  //   prefix: PropTypes.string,
+  //   suffix: PropTypes.string,
 
-    containerStyle: (ViewPropTypes || View.propTypes).style,
-    inputContainerStyle: (ViewPropTypes || View.propTypes).style,
+  //   containerStyle: (ViewPropTypes || View.propTypes).style,
+  //   inputContainerStyle: (ViewPropTypes || View.propTypes).style,
 
-    helpersNumberOfLines: PropTypes.number,
-  };
+  //   helpersNumberOfLines: PropTypes.number,
+  // };
 
   constructor(props) {
     super(props);

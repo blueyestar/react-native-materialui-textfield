@@ -1,36 +1,36 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Animated } from 'react-native';
 
 import styles from './styles';
 
 export default class Affix extends PureComponent {
-  static defaultProps = {
-    numberOfLines: 1,
+  // static defaultProps = {
+  //   numberOfLines: 1,
 
-    active: false,
-    focused: false,
-  };
+  //   active: false,
+  //   focused: false,
+  // };
 
-  static propTypes = {
-    numberOfLines: PropTypes.number,
+  // static propTypes = {
+  //   numberOfLines: PropTypes.number,
 
-    active: PropTypes.bool,
-    focused: PropTypes.bool,
+  //   active: PropTypes.bool,
+  //   focused: PropTypes.bool,
 
-    type: PropTypes.oneOf(['prefix', 'suffix']).isRequired,
+  //   type: PropTypes.oneOf(['prefix', 'suffix']).isRequired,
 
-    fontSize: PropTypes.number.isRequired,
-    baseColor: PropTypes.string.isRequired,
-    animationDuration: PropTypes.number.isRequired,
+  //   fontSize: PropTypes.number.isRequired,
+  //   baseColor: PropTypes.string.isRequired,
+  //   animationDuration: PropTypes.number.isRequired,
 
-    style: Animated.Text.propTypes.style,
+  //   style: Animated.Text.propTypes.style,
 
-    children: PropTypes.oneOfType([
-      PropTypes.arrayOf(PropTypes.node),
-      PropTypes.node,
-    ]),
-  };
+  //   children: PropTypes.oneOfType([
+  //     PropTypes.arrayOf(PropTypes.node),
+  //     PropTypes.node,
+  //   ]),
+  // };
 
   constructor(props) {
     super(props);
