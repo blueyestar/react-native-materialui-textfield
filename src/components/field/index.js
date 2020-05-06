@@ -22,35 +22,35 @@ import Counter from '../counter';
 import styles from './styles.js';
 
 export default class TextField extends PureComponent {
-  // static defaultProps = {
-  //   underlineColorAndroid: 'transparent',
-  //   disableFullscreenUI: true,
-  //   autoCapitalize: 'sentences',
-  //   editable: true,
+  static defaultProps = {
+    underlineColorAndroid: 'transparent',
+    disableFullscreenUI: true,
+    autoCapitalize: 'sentences',
+    editable: true,
 
-  //   animationDuration: 225,
+    animationDuration: 225,
 
-  //   fontSize: 16,
-  //   titleFontSize: 12,
-  //   labelFontSize: 12,
-  //   labelHeight: 32,
-  //   labelPadding: 4,
-  //   inputContainerPadding: 8,
-  //   helpersNumberOfLines: 1,
+    fontSize: 16,
+    titleFontSize: 12,
+    labelFontSize: 12,
+    labelHeight: 32,
+    labelPadding: 4,
+    inputContainerPadding: 8,
+    helpersNumberOfLines: 1,
 
-  //   tintColor: 'rgb(0, 145, 234)',
-  //   textColor: 'rgba(0, 0, 0, .87)',
-  //   baseColor: 'rgba(0, 0, 0, .38)',
+    tintColor: 'rgb(0, 145, 234)',
+    textColor: 'rgba(0, 0, 0, .87)',
+    baseColor: 'rgba(0, 0, 0, .38)',
 
-  //   errorColor: 'rgb(213, 0, 0)',
+    errorColor: 'rgb(213, 0, 0)',
 
-  //   lineWidth: StyleSheet.hairlineWidth,
-  //   activeLineWidth: 2,
+    lineWidth: StyleSheet.hairlineWidth,
+    activeLineWidth: 2,
 
-  //   disabled: false,
-  //   disabledLineType: 'dotted',
-  //   disabledLineWidth: 1,
-  // };
+    disabled: false,
+    disabledLineType: 'dotted',
+    disabledLineWidth: 1,
+  };
 
   // static propTypes = {
   //   ...TextInput.propTypes,

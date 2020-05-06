@@ -3,14 +3,14 @@ import React, { PureComponent } from 'react';
 import { Animated } from 'react-native';
 
 export default class Label extends PureComponent {
-  // static defaultProps = {
-  //   numberOfLines: 1,
+  static defaultProps = {
+    numberOfLines: 1,
 
-  //   active: false,
-  //   focused: false,
-  //   errored: false,
-  //   restricted: false,
-  // };
+    active: false,
+    focused: false,
+    errored: false,
+    restricted: false,
+  };
 
   // static propTypes = {
   //   active: PropTypes.bool,

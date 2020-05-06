@@ -5,12 +5,12 @@ import { Animated } from 'react-native';
 import styles from './styles';
 
 export default class Affix extends PureComponent {
-  // static defaultProps = {
-  //   numberOfLines: 1,
+  static defaultProps = {
+    numberOfLines: 1,
 
-  //   active: false,
-  //   focused: false,
-  // };
+    active: false,
+    focused: false,
+  };
 
   // static propTypes = {
   //   numberOfLines: PropTypes.number,
