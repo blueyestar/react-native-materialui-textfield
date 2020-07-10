@@ -112,7 +112,7 @@ export default class TextField extends PureComponent {
     this.updateRef = this.updateRef.bind(this, 'input');
 
     let { value, error, fontSize } = this.props;
-
+ 
     this.mounted = false;
     this.state = {
       text: value ? value : '',
@@ -160,7 +160,11 @@ export default class TextField extends PureComponent {
       let toValue = this.focusState(props.error, state.focused);
 
       Animated
-        .timing(focus, { toValue, duration })
+        .timing(focus, {
+          toValue,
+          duration,
+          useNativeDriver: false
+        })
         .start(this.onFocusAnimationEnd);
     }
   }
