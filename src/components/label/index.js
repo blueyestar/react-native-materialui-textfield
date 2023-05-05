@@ -130,6 +130,8 @@ export default class Label extends PureComponent {
     let containerStyle = {
       position: 'absolute',
       top,
+      textAlign: 'center',
+      width: '100%'
     };
 
     return (
